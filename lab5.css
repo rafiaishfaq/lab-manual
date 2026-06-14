@@ -1,0 +1,77 @@
+/* Element Selector */
+h1 {
+    color: navy;
+}
+
+p {
+    color: darkgreen;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: yellow;
+    font-style: italic;
+}
+
+/* ID Selector */
+#main-title {
+    text-decoration: underline;
+}
+
+/* Grouping Selector */
+h2, p, li {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* Descendant Selector */
+div p {
+    color: red;
+}
+
+/* Child Selector */
+div > ul > li {
+    background-color: lightblue;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    background-color: lightyellow;
+}
+
+input[type="password"] {
+    background-color: lightgray;
+}
+
+/* Pseudo Classes */
+a:hover {
+    color: red;
+}
+
+ul li:first-child {
+    font-weight: bold;
+}
+
+ul li:last-child {
+    color: blue;
+}
+
+/* Pseudo Elements */
+h2::before {
+    content: "★ ";
+}
+
+h2::after {
+    content: " ★";
+}
+
+p::first-letter {
+    font-size: 24px;
+    color: green;
+}
+
+/* Image Style */
+img {
+    width: 200px;
+    border: 2px solid black;
+}

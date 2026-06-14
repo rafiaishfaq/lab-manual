@@ -1,0 +1,13 @@
+body {
+    background-color: lightyellow;
+}
+
+h3 {
+    color: purple;
+    text-decoration: underline;
+}
+
+.external-para {
+    color: darkblue;
+    font-size: 18px;
+}
